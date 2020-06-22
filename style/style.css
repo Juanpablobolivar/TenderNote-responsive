@@ -1,0 +1,197 @@
+.body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    background: rgba(0, 195, 255, 0.404);
+    font-size: 16px;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.nav{
+    flex: 100;
+    color: blue;
+    text-shadow: 0 4px 0 black;
+    margin-left: 50px;
+}
+.nav__h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.menu{
+    display: flex;
+    padding: 0;
+}
+.menu__item{
+    list-style: none;
+}
+.menu__link{
+    color: rgb(1, 2, 2);
+    font-size: 18px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.menu__link:hover{
+    color: rgb(3, 116, 110);
+}
+.buscar{
+    flex: 1;
+    position: relative;
+    margin-right: 50px;
+    text-align: right;
+}
+.buscar__icono{
+    font-size: 20px;
+    color: rgb(1, 2, 2);
+}
+.principal{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.principal__text{
+    position: absolute;
+    height: 110px;
+    left: 7%;
+    top: 43%;
+}
+.principal__title_1{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.principal__title_2{
+    color:#568ad9;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.principal__img{
+    position: absolute;
+    max-width: 622px;
+    height: 438px;
+    width: 100%;
+    top: 28%;
+    left: 20%;
+    margin-left: 300px;
+}
+.principal__img_1{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.container{
+    width: 84%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.col__left{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+    background-color: #cefcfc;
+    float: left;
+    height: 420px;
+}
+.principal__title_h1{
+    padding: 0;
+    margin: 60px 40px 40px 40px;
+    text-align: center;
+    color: #65c55a;
+}
+.principal__title_h2{
+    padding: 0;
+    margin: 40px 40px 40px 40px;
+    text-align: justify;
+    color: #65c55a;
+}
+.parrafo{
+    margin-top: 32px;
+    font-size: 18px;
+    color: black;
+    margin: 40px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+.col__right{
+    width: 50%;
+    padding: 0;
+    margin-top: 20px;
+    height: 435px;
+}
+.container__img{
+    width: 100%;
+    height: 425px;
+}
+.col_left_servicio{
+    margin-top: 0;
+    background: burlywood;
+}
+.img__box{
+    position: realtive;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.servicio{
+    position: relative;
+    display: inline-block;
+    margin-left: -4px;
+    margin-bottom: -4px;
+    width: 34%;
+    height: 252px;
+}
+.servicio:hover{
+    box-shadow: 0 0 35px salmon;
+}
+.container__img_2{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: block;
+}
+.content{
+    position: absolute;
+    height: 0px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+.content__title{
+    color: white;
+    margin: 5px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+.price{
+    position: absolute;
+    margin: 0px 20px;
+    display: flex;
+    height: 27px;
+    width: 18px;
+}
+.servicio:hover .price{
+    text-transform: slateblue;
+}
+.price__left{
+    font-family: 60px;
+    text-align: justify;
+    background: turquoise;
+}
